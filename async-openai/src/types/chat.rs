@@ -615,6 +615,7 @@ pub enum ServiceTierResponse {
     Scale,
     Default,
     Flex,
+    On_Demand
 }
 
 #[derive(Clone, Serialize, Debug, Deserialize, PartialEq)]
